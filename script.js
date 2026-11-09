@@ -35,7 +35,7 @@ function askEightBall() {
     document.getElementById('questionOut').textContent = ''
     document.getElementById('answer').textContent = 'The 8 Ball needs a question you dummy!'
     document.getElementById('answerType').textContent = ''
-
+return;
   }
 
   //get a random number
