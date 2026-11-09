@@ -31,7 +31,7 @@ function askEightBall() {
 
   //check the question
 
-  if (userQuestion === '') {
+  if (userQuestion.trim() === '') {
     document.getElementById('questionOut').textContent = ''
     document.getElementById('answer').textContent = 'The 8 Ball needs a question you dummy!'
     document.getElementById('answerType').textContent = ''
@@ -52,7 +52,7 @@ return;
       break;
 
     case 1:
-      eightBall = 'It is certain';
+      eightBall = 'It is decidedly so';
       answerType = 'Positive';
       break;
 
